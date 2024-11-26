@@ -1,0 +1,125 @@
+#tble{
+  text-align: right;
+}
+
+
+
+
+
+/** =================banner====================*/
+.dashboard {
+    background-image: url('../images/bkground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    color: #A5BECC !important;
+    position: relative;
+}
+
+.dashboard::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+
+}
+.dashboard .content h1, .dashboard .content h3 {
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+  
+  .btn1 {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #btnNew{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgb(207, 207, 207);
+  }
+  
+  #btnNew:hover{
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 8px #f9f8fc;
+    } 
+  
+   #foot{
+    position: relative;
+    top: 1px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 1px   #d9d4e7;
+    width: 200px;
+    height: 65px;
+    background-color: #d9d4e7;
+    animation-duration: 5s;
+  }
+  
+  .button-os{
+     position: absolute;
+      width: 200px;
+      height: 45px;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      background-color: #f9f8fc;
+      border: 2.5px solid wheat;
+      transition: background-color 2.2s;
+      transition-duration: 1s;
+      transition: 0.5s;
+    }
+    
+    .button-os:hover{
+      position: absolute;
+      top: 10px;
+      background-color: #92a8d1 ;
+    }
+    
+    .button-os a{
+      font-size: 14px;
+      display: block;
+      text-decoration: none;
+      color:#0e172c;
+      transition: 0.1s;
+    }
+    
+    .button-os a:hover{
+      letter-spacing: 5px;
+    }
