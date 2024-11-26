@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://AFadmin:admin123@project.h4eh7.mongodb.net/ResearchProjectManagementToolDatabase?retryWrites=true&w=majority",
+    "secretOrKey": "secret"
+}
